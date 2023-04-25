@@ -8,7 +8,7 @@ app = Flask(__name__)
 lista_usuarios = ['Romulo', 'Debora', 'Adryan', 'Marcelo', 'Veridiana']
 
 app.config['SECRET_KEY'] = '29cecf8afd6176f06bb3f55472d490d1'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Projeto.db'
+app.config['SQLALCHEMY_DATABASE_URl'] = 'sqlite:///Projeto.db'
 
 database: SQLAlchemy = SQLAlchemy(app)
 
